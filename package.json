@@ -1,0 +1,30 @@
+{
+  "name": "mongoose-cachedbulkinsert",
+  "version": "0.0.1",
+  "description": "mongoose plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-unit;npm run test-integration",
+    "test-unit": "mocha ./test/unit/**/*.spec.js",
+    "test-integration": "mocha ./test/integration/**/*.js",
+    "test-travis": "nyc --reporter=lcov npm test && nyc check-coverage"
+  },
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "cache",
+    "bulkWrite"
+  ],
+  "author": "Kevin Huff <lineus@gmail.com>",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-plugin-jsdoc": "22.1.0",
+    "jsdoc": "3.6.3",
+    "mocha": "7.1.1",
+    "nyc": "15.0.1"
+  },
+  "peerDependencies": {
+    "mongoose": "5.x"
+  }
+}
