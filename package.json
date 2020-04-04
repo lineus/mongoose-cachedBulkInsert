@@ -22,6 +22,7 @@
     "eslint-plugin-jsdoc": "22.1.0",
     "jsdoc": "3.6.3",
     "mocha": "7.1.1",
+    "mongoose": "^5.9.7",
     "nyc": "15.0.1"
   },
   "peerDependencies": {
