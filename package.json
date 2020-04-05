@@ -1,6 +1,6 @@
 {
   "name": "mongoose-cachedbulkinsert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "mongoose plugin",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,13 @@
     "test-unit": "mocha ./test/unit/**/*.spec.js",
     "test-integration": "mocha ./test/integration/**/*.js",
     "test-travis": "nyc --reporter=lcov npm test && nyc check-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineus/mongoose-cachedBulkInsert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lineus/mongoose-cachedBulkInsert/issues"
   },
   "keywords": [
     "mongoose",
